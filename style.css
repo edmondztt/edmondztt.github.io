@@ -1,0 +1,210 @@
+	
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+	color: #696969;
+}
+
+li {
+	padding-bottom: 13px;
+	padding-left: 12px;
+	/* text-align: justify; */
+}
+
+
+.card p {
+	line-height: 20px;
+	text-align: justify;
+}
+
+
+
+#bgimg {
+	width: 50%;
+	margin-left: 30%;
+	padding-left: 20px;
+	padding-top: 17px;
+    content: url("../img/bgimg.jpg");
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 1px;
+    text-align: center;
+    background-image: url("../img/header.jpg");
+	background-size: 100%;
+	text-align: center;
+}
+
+.title {
+	background-color: ;
+	background-color:rgba(250, 250, 250, 0.9);
+	width: 70%;
+	margin: 0 auto;
+	padding: 0;
+	/* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+}
+
+.title h1 {
+	margin-bottom: 0;
+	padding-top: 15px;
+}
+
+.title p {
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4E4E4E;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.topnav_li {
+	padding-bottom: 0;
+    float: left;
+	padding-left: 0px;
+}
+
+/* Style the topnav links */
+.topnav_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* Change color on hover */
+.topnav_li a:hover {
+    background-color: #111;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 21%;
+	position: static;
+}
+
+.leftcolumn p {
+	text-align: center;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 79%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* horizonal line */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+	margin-top: -12px;
+}
+
+/* Infocard on the left */
+.infocard_ul {
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+	color: #696969;
+}
+
+.infocard_ul li {
+    float: left;
+	padding-top: 10px;
+}
+
+
+.sideimg {	
+	content:url('../img/sideimg.jpg');
+    height:150px;
+    padding: 0px;
+}
+
+
+h4 {
+	margin-bottom: -2px;
+}
+
+.teachingPortfolio li {
+	margin: 0px;
+	padding: 3px;
+}
+
